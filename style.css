@@ -1,0 +1,91 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* BORDER RADIUS */
+.div1 {
+    height: 300px;
+    width: 300px;
+    background: lightblue;
+    border-top-right-radius: 100%;
+    border: solid 10px blue;
+}
+/* BORDER https://www.youtube.com/watch?v=9aGgFGiEnTY&list=PL1PqvM2UQiMpdSRU17xcHqUIit0S16Lt5&index=5&ab_channel=ColorCode*/
+.border {
+    display: flex;
+}
+.border1 {
+    height: 300px;
+    width: 300px;
+    background: lightblue;
+    border-left: dotted 20px darkgreen;
+    border-right: dotted 20px darkgreen;
+    border-top: solid 15px black;
+    border-bottom: solid 15px black;
+}
+/* CSS SELECTOR 
+https://www.youtube.com/watch?v=rLZWAGrY6cU&list=PL1PqvM2UQiMpdSRU17xcHqUIit0S16Lt5&index=7&ab_channel=ColorCode
+ */
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+.container .green {
+    height: 75px;
+    width: 300px;
+    background: lightblue;
+    border: double 7px darkgreen;
+}
+.green {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: green;
+}
+.container .orange {
+    height: 75px;
+    width: 300px;
+    background: lightblue;
+    border: double 7px darkgreen;
+}
+.orange {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: orange;
+}
+.container .red {
+    height: 75px;
+    width: 300px;
+    background: lightblue;
+    border: double 7px darkgreen;
+}
+.red {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+}
+/* BOX MODEL https://www.youtube.com/watch?v=3-hpDA7Ioi4&list=PL1PqvM2UQiMpdSRU17xcHqUIit0S16Lt5&index=8&ab_channel=ColorCode*/
+.outer {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    border: solid 10px black;
+}
+.hello1 {
+    padding: 150px;
+    background-color: pink;
+    
+}
