@@ -80,12 +80,23 @@ https://www.youtube.com/watch?v=rLZWAGrY6cU&list=PL1PqvM2UQiMpdSRU17xcHqUIit0S16
 /* BOX MODEL https://www.youtube.com/watch?v=3-hpDA7Ioi4&list=PL1PqvM2UQiMpdSRU17xcHqUIit0S16Lt5&index=8&ab_channel=ColorCode*/
 .outer {
     display: flex;
-    width: 400px;
-    height: 400px;
+    padding: 70px;
     border: solid 10px black;
+    background: rgb(226, 241, 226); 
 }
 .hello1 {
-    padding: 150px;
-    background-color: pink;
+    width: 500px;
+    height: 300px;
+    background: rgba(105, 218, 105, 0.668);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 75px;
+    border-top-right-radius: 100px;
+    border-bottom-left-radius: 100px;
+    border-top: solid 30px black;
+    border-right: solid 20px rgb(102, 227, 102);
+    border-bottom: solid 30px rgb(27, 138, 27);
+    border-left: solid 20px rgba(28, 34, 28, 0.066);
     
 }
