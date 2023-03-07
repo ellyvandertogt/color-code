@@ -100,3 +100,14 @@ https://www.youtube.com/watch?v=rLZWAGrY6cU&list=PL1PqvM2UQiMpdSRU17xcHqUIit0S16
     border-left: solid 20px rgba(28, 34, 28, 0.066);
     
 }
+/* GRADIENT BACKGROUND */
+.gradient {
+    padding: 200px;
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),            
+    linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),            
+    linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    border: rgb(227, 103, 103) 10px solid;
+    /* background: linear-gradient(to left, hsl(0, 2%, 38%), rgba(0,255,0,0) 50%, red 50%);
+    background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%); */
+  
+}
