@@ -109,5 +109,12 @@ https://www.youtube.com/watch?v=rLZWAGrY6cU&list=PL1PqvM2UQiMpdSRU17xcHqUIit0S16
     border: rgb(227, 103, 103) 10px solid;
     /* background: linear-gradient(to left, hsl(0, 2%, 38%), rgba(0,255,0,0) 50%, red 50%);
     background: linear-gradient(to left, #333, #333 50%, #eee 75%, #333 75%); */
+}
+/* OVERFLOW */
+.overflow {
+    max-height: 200px;
+    border: solid 2px red;
+    overflow: hidden;
   
+    
 }
